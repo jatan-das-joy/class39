@@ -105,12 +105,28 @@
         padding: 0 6px;
         line-height: 59px;
     }
-
-
+    .item p {
+        padding: 0 0;
+        margin-bottom: 22px;
+    }
+    .col-xl-6.asi {
+        width: 100%;
+    }
+    .imgt img {
+        height: 95%;
+    }
+    .item3 {
+        border: 1px solid #ddd;
+        background: #fff;
+    }
+    .item3 {
+        border: none;
+        background: none;
+    }
 
 }
 
-@media all and (max-width:600px){
+@media all and (max-width:650px){
     .str {
         width: 30%;
         text-align: center;
@@ -155,7 +171,7 @@
 
 
 }
-@media all and (max-width:470px){
+@media all and (max-width:500px){
 body{
     padding-left: 5px;
     padding-right: 5px;
@@ -262,6 +278,10 @@ body{
 }
 .row.py-4 {
 	padding: 0 !important;
+}
+.item3 {
+	border: none;
+	background: none;
 }
 
 }
