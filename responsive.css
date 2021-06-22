@@ -260,8 +260,11 @@ body{
 	height: 60vh;
 
 }
+.startmenu ul li:nth-child(6) a {
+	margin-right: 0px !important;
+}
 .startmenu ul {
-	text-align: center;
+	text-align: center !important;
 }
 
 .prizing-section.py-5.mt-4 {
