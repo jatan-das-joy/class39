@@ -260,6 +260,9 @@ body{
 	height: 60vh;
 
 }
+.startmenu ul {
+	text-align: center;
+}
 
 .prizing-section.py-5.mt-4 {
 	padding: 17px 0 !important;
